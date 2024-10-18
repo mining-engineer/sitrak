@@ -1,0 +1,612 @@
+ID_грузовика,Статус,Время,ID_погрузчика
+22,начало погрузки,34.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,начало погрузки,34.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,начало погрузки,35.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,39.35534492618574,3
+3,начало погрузки,39.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,39.58580002288402,3
+7,начало погрузки,39.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,погружен,40.21675228610137,3
+18,начало погрузки,40.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,44.35534492618574,3
+2,начало погрузки,44.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,44.58580002288402,3
+32,начало погрузки,44.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,45.21675228610137,3
+16,начало погрузки,45.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,49.35534492618574,3
+28,начало погрузки,49.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,49.58580002288402,3
+5,начало погрузки,49.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,50.21675228610137,3
+25,начало погрузки,50.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,54.35534492618574,3
+34,начало погрузки,54.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,54.58580002288402,3
+21,начало погрузки,54.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,55.21675228610137,3
+8,начало погрузки,55.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,59.35534492618574,3
+14,начало погрузки,59.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,59.58580002288402,3
+1,начало погрузки,59.58580002288402,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,60.21675228610137,3
+31,начало погрузки,60.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,64.35534492618574,3
+4,начало погрузки,64.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,64.58580002288403,3
+13,начало погрузки,64.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,65.21675228610137,3
+29,начало погрузки,65.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,69.35534492618574,3
+9,начало погрузки,69.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,69.58580002288403,3
+19,начало погрузки,69.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,70.21675228610137,3
+30,начало погрузки,70.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,74.35534492618574,3
+15,начало погрузки,74.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,74.58580002288403,3
+27,начало погрузки,74.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,75.21675228610137,3
+33,начало погрузки,75.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,79.35534492618574,3
+24,начало погрузки,79.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,79.58580002288403,3
+35,начало погрузки,79.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,80.21675228610137,3
+6,начало погрузки,80.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,84.35534492618574,3
+11,начало погрузки,84.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,84.58580002288403,3
+12,начало погрузки,84.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,85.21675228610137,3
+10,начало погрузки,85.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,89.35534492618574,3
+20,начало погрузки,89.35534492618574,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,89.58580002288403,3
+23,начало погрузки,89.58580002288403,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+10,погружен,90.21675228610137,3
+26,начало погрузки,90.21675228610137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,94.35534492618574,3
+23,погружен,94.58580002288403,2
+26,погружен,95.21675228610137,1
+22,начало погрузки,111.08922235070689,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,начало погрузки,112.14768753247616,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,116.08922235070689,2
+0,начало погрузки,116.12679398517591,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,117.14768753247616,2
+3,начало погрузки,117.47260111999155,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,начало погрузки,119.86281254180118,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,погружен,121.12679398517591,3
+18,начало погрузки,121.12679398517591,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,122.47260111999155,3
+2,начало погрузки,122.47260111999155,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,124.86281254180118,3
+16,начало погрузки,124.86281254180118,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,126.12679398517591,3
+32,начало погрузки,126.12679398517591,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,127.47260111999155,3
+5,начало погрузки,127.47260111999155,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,129.8628125418012,3
+28,начало погрузки,130.1265451745246,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,131.1267939851759,3
+25,начало погрузки,132.05475892848057,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,132.47260111999157,3
+21,начало погрузки,133.31814546266432,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,135.1265451745246,3
+34,начало погрузки,135.1265451745246,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,137.05475892848057,3
+8,начало погрузки,137.05475892848057,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,138.31814546266432,3
+14,начало погрузки,138.31814546266432,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,140.1265451745246,3
+1,начало погрузки,140.1265451745246,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,142.05475892848057,3
+14,погружен,143.31814546266432,2
+31,начало погрузки,143.62052529996478,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,начало погрузки,143.65230747051413,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,145.1265451745246,3
+13,начало погрузки,145.1265451745246,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,148.62052529996478,3
+9,начало погрузки,148.62052529996478,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,148.65230747051413,3
+4,начало погрузки,149.11832172088316,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,150.1265451745246,3
+19,начало погрузки,151.53096159864631,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,153.62052529996478,3
+30,начало погрузки,153.62052529996478,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,154.11832172088316,3
+19,погружен,156.53096159864631,2
+27,начало погрузки,157.50674749643207,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,начало погрузки,157.83207819132633,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,158.62052529996478,3
+15,начало погрузки,158.62052529996478,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,162.50674749643207,3
+33,погружен,162.83207819132633,2
+15,погружен,163.62052529996478,1
+6,начало погрузки,164.50293568766145,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,начало погрузки,165.9834033902907,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,начало погрузки,166.9254889004435,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,169.50293568766145,3
+12,начало погрузки,169.50293568766145,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,170.9834033902907,3
+23,начало погрузки,170.9834033902907,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,171.9254889004435,3
+20,начало погрузки,171.9254889004435,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,174.50293568766145,3
+11,начало погрузки,174.50293568766145,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,175.9834033902907,3
+26,начало погрузки,175.9834033902907,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,176.9254889004435,3
+10,начало погрузки,176.9254889004435,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,179.50293568766145,3
+26,погружен,180.9834033902907,2
+10,погружен,181.9254889004435,1
+17,начало погрузки,191.24664640176482,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,начало погрузки,191.57466647977927,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,196.24664640176482,2
+0,начало погрузки,196.3093370496168,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,196.57466647977927,2
+3,начало погрузки,197.07501947469223,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,погружен,201.3093370496168,2
+16,начало погрузки,201.84599955118014,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,202.07501947469223,2
+2,начало погрузки,203.45285339716787,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,начало погрузки,206.09170286906465,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,206.84599955118014,3
+32,начало погрузки,206.84599955118014,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,208.45285339716787,3
+18,начало погрузки,208.45285339716787,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,211.09170286906465,3
+5,начало погрузки,211.09170286906465,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,211.84599955118014,3
+18,погружен,213.45285339716787,2
+28,начало погрузки,215.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,начало погрузки,215.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,216.09170286906465,3
+25,начало погрузки,218.39760928606816,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,220.63291254152233,3
+34,начало погрузки,220.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,220.8760421973593,3
+14,начало погрузки,220.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,223.39760928606816,3
+8,начало погрузки,223.39760928606816,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,225.63291254152233,3
+29,начало погрузки,225.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,225.8760421973593,3
+1,начало погрузки,225.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,228.39760928606816,3
+9,начало погрузки,228.39760928606816,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,230.63291254152233,3
+13,начало погрузки,230.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,230.8760421973593,3
+31,начало погрузки,230.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,233.39760928606816,3
+4,начало погрузки,233.39760928606816,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,235.63291254152233,3
+19,начало погрузки,235.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,235.8760421973593,3
+30,начало погрузки,235.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,238.39760928606816,3
+27,начало погрузки,238.39760928606816,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,240.63291254152233,3
+33,начало погрузки,240.63291254152233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,240.8760421973593,3
+15,начало погрузки,240.8760421973593,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,243.39760928606816,3
+33,погружен,245.63291254152233,2
+15,погружен,245.8760421973593,1
+6,начало погрузки,245.92728924994978,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,начало погрузки,249.95538990499023,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,начало погрузки,250.5951130264794,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,250.92728924994978,3
+12,начало погрузки,251.07946437817458,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,254.95538990499023,3
+20,начало погрузки,254.95538990499023,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,255.5951130264794,3
+35,начало погрузки,255.5951130264794,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,256.0794643781746,3
+11,начало погрузки,256.7043656860592,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,259.9553899049902,3
+26,начало погрузки,259.9553899049902,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,260.5951130264794,3
+10,начало погрузки,261.5574597595878,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,261.7043656860592,3
+26,погружен,264.9553899049902,2
+10,погружен,266.5574597595878,1
+17,начало погрузки,269.62993869384434,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,начало погрузки,270.36548728600815,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,274.62993869384434,2
+0,погружен,275.36548728600815,1
+22,начало погрузки,276.53666738275416,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,начало погрузки,278.4565350149863,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,начало погрузки,280.39760814242214,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,281.53666738275416,3
+16,погружен,283.4565350149863,2
+3,погружен,285.39760814242214,1
+2,начало погрузки,288.4698006319042,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,начало погрузки,288.773281921914,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,начало погрузки,289.598979637668,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,293.4698006319042,3
+32,начало погрузки,293.4698006319042,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,293.773281921914,3
+5,начало погрузки,293.81064900285867,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,294.598979637668,3
+21,начало погрузки,296.89120970142517,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,298.4698006319042,3
+28,начало погрузки,298.4698006319042,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,298.81064900285867,3
+25,начало погрузки,301.00698816731466,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,301.89120970142517,3
+14,начало погрузки,302.22401796717725,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,303.4698006319042,3
+29,начало погрузки,303.4698006319042,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,306.00698816731466,3
+34,начало погрузки,306.00698816731466,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,307.22401796717725,3
+9,начало погрузки,307.8768253571504,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,308.4698006319042,3
+13,начало погрузки,310.10808089052324,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,311.00698816731466,3
+8,начало погрузки,311.00698816731466,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,312.8768253571504,3
+1,начало погрузки,312.8768253571504,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,315.10808089052324,3
+4,начало погрузки,315.10808089052324,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,316.00698816731466,3
+19,начало погрузки,316.0747810836364,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,317.8768253571504,3
+31,начало погрузки,317.8768253571504,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,320.10808089052324,3
+30,начало погрузки,320.10808089052324,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,321.0747810836364,3
+33,начало погрузки,321.0747810836364,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,322.8768253571504,3
+27,начало погрузки,322.8768253571504,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,325.10808089052324,3
+15,начало погрузки,325.10808089052324,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,326.0747810836364,3
+6,начало погрузки,326.6764527194092,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,327.8768253571504,3
+24,начало погрузки,329.05370169374794,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,330.10808089052324,3
+6,погружен,331.6764527194092,2
+23,начало погрузки,332.01652560490396,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,начало погрузки,333.0183636945877,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,334.05370169374794,3
+20,начало погрузки,335.76313907057386,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,337.01652560490396,3
+35,начало погрузки,337.01652560490396,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,338.0183636945877,3
+10,начало погрузки,339.41867656381874,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,340.76313907057386,3
+11,начало погрузки,340.76313907057386,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,342.01652560490396,3
+10,погружен,344.41867656381874,2
+26,начало погрузки,345.62574527032234,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,345.76313907057386,2
+17,начало погрузки,348.88061662404147,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,начало погрузки,349.4041800817233,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+26,погружен,350.62574527032234,3
+17,погружен,353.88061662404147,2
+0,погружен,354.4041800817233,1
+16,начало погрузки,357.4177958228613,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,начало погрузки,360.69154321312783,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,начало погрузки,362.10860214858883,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,362.4177958228613,3
+22,погружен,365.69154321312783,2
+7,начало погрузки,366.98913009204256,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,367.10860214858883,2
+18,начало погрузки,368.50920618671285,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,начало погрузки,368.56648737041036,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,371.98913009204256,3
+5,начало погрузки,371.98913009204256,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,373.50920618671285,3
+21,начало погрузки,373.50920618671285,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,373.56648737041036,3
+28,начало погрузки,374.6773965831279,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,376.98913009204256,3
+32,начало погрузки,376.98913009204256,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,378.50920618671285,3
+14,начало погрузки,378.50920618671285,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,379.6773965831279,3
+29,начало погрузки,379.6773965831279,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,381.98913009204256,3
+25,начало погрузки,382.7470233272137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,383.50920618671285,3
+29,погружен,384.6773965831279,2
+25,погружен,387.7470233272137,1
+13,начало погрузки,389.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,начало погрузки,390.26345853837364,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,начало погрузки,392.5307098541266,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,394.6986353602261,3
+8,начало погрузки,394.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,395.26345853837364,3
+19,начало погрузки,395.26345853837364,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,397.5307098541266,3
+4,начало погрузки,397.5307098541266,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,399.6986353602261,3
+1,начало погрузки,399.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,400.26345853837364,3
+30,начало погрузки,400.9971680395291,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,402.5307098541266,3
+33,начало погрузки,402.6824891366967,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,404.6986353602261,3
+27,начало погрузки,404.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,405.9971680395291,3
+15,начало погрузки,405.9971680395291,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,407.6824891366967,3
+31,начало погрузки,407.6824891366967,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,409.6986353602261,3
+24,начало погрузки,409.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,410.9971680395291,3
+6,начало погрузки,410.9971680395291,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,412.6824891366967,3
+20,начало погрузки,412.6824891366967,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,414.6986353602261,3
+12,начало погрузки,414.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,415.9971680395291,3
+23,начало погрузки,415.9971680395291,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,417.6824891366967,3
+10,начало погрузки,417.6824891366967,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,419.6986353602261,3
+35,начало погрузки,419.6986353602261,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,420.9971680395291,3
+10,погружен,422.6824891366967,2
+35,погружен,424.6986353602261,1
+26,начало погрузки,426.2977739607577,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,начало погрузки,426.5936800737686,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,начало погрузки,429.49659276988035,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+26,погружен,431.2977739607577,3
+11,погружен,431.5936800737686,2
+17,начало погрузки,431.63602082370824,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+0,погружен,434.49659276988035,2
+17,погружен,436.63602082370824,1
+16,начало погрузки,437.45108132097863,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,начало погрузки,438.97487412067755,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,442.45108132097863,2
+22,начало погрузки,443.2459238945255,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,начало погрузки,443.9264396970692,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,443.97487412067755,3
+7,начало погрузки,444.87066373137804,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,448.2459238945255,3
+2,погружен,448.9264396970692,2
+7,погружен,449.87066373137804,1
+28,начало погрузки,450.0771645645043,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,начало погрузки,450.50812358074865,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,начало погрузки,450.64439885899213,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,455.0771645645043,3
+21,начало погрузки,455.0771645645043,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,455.50812358074865,3
+14,начало погрузки,455.50812358074865,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,455.64439885899213,3
+32,начало погрузки,456.5580710454375,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,460.0771645645043,3
+29,начало погрузки,460.0771645645043,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,460.50812358074865,3
+32,погружен,461.5580710454375,2
+29,погружен,465.0771645645043,1
+25,начало погрузки,469.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,начало погрузки,471.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,начало погрузки,471.9450876572432,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,474.8864836965573,3
+13,начало погрузки,474.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,476.6770604785474,3
+4,начало погрузки,476.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,476.9450876572432,3
+30,начало погрузки,476.9450876572432,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,479.8864836965573,3
+34,начало погрузки,479.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,481.6770604785474,3
+9,начало погрузки,481.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,481.9450876572432,3
+27,начало погрузки,482.19083161657784,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,484.8864836965573,3
+1,начало погрузки,484.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,486.6770604785474,3
+33,начало погрузки,486.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,487.19083161657784,3
+15,начало погрузки,487.19083161657784,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,489.8864836965573,3
+24,начало погрузки,489.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,491.6770604785474,3
+20,начало погрузки,491.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,492.19083161657784,3
+12,начало погрузки,493.6962249971803,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,494.8864836965573,3
+23,начало погрузки,494.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,496.6770604785474,3
+31,начало погрузки,496.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,498.6962249971803,3
+6,начало погрузки,498.6962249971803,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,499.8864836965573,3
+10,начало погрузки,499.8864836965573,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,501.6770604785474,3
+35,начало погрузки,501.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,503.6962249971803,3
+10,погружен,504.8864836965573,2
+26,начало погрузки,505.6180590304383,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,начало погрузки,505.91525517216803,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,506.6770604785474,3
+0,начало погрузки,506.6770604785474,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+26,погружен,510.6180590304383,3
+11,погружен,510.91525517216803,2
+0,погружен,511.6770604785474,1
+17,начало погрузки,512.068876712273,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,517.068876712273,1
+16,начало погрузки,517.2124122514801,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,начало погрузки,517.2635402480059,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,522.2124122514801,2
+3,погружен,522.2635402480059,1
+2,начало погрузки,522.5368727090927,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,начало погрузки,522.8680052062742,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,начало погрузки,526.882348639838,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,527.5368727090927,3
+7,погружен,527.8680052062742,2
+28,начало погрузки,530.2019967238074,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,начало погрузки,530.211374070739,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,531.882348639838,3
+18,начало погрузки,532.785341400462,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,535.2019967238074,3
+14,начало погрузки,535.2019967238074,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,535.211374070739,3
+21,начало погрузки,535.8562210522192,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,537.785341400462,3
+32,начало погрузки,537.785341400462,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,540.2019967238074,3
+21,погружен,540.8562210522192,2
+32,погружен,542.785341400462,1
+29,начало погрузки,542.9403370092896,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,547.9403370092896,1
+19,начало погрузки,550.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,начало погрузки,552.0435814203557,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,начало погрузки,553.7586061956051,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,555.5835283777614,3
+30,начало погрузки,555.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,557.0435814203557,3
+13,начало погрузки,558.4924972002739,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,558.7586061956051,3
+4,начало погрузки,558.7586061956051,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,560.5835283777614,3
+27,начало погрузки,560.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,563.4924972002739,3
+33,начало погрузки,563.4924972002739,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,563.7586061956051,3
+34,начало погрузки,563.7586061956051,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,565.5835283777614,3
+15,начало погрузки,565.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,568.4924972002739,3
+9,начало погрузки,568.4924972002739,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,568.7586061956051,3
+24,начало погрузки,568.7586061956051,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,570.5835283777614,3
+1,начало погрузки,570.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,573.4924972002739,3
+20,начало погрузки,573.4924972002739,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,573.7586061956051,3
+23,начало погрузки,573.7586061956051,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,575.5835283777614,3
+12,начало погрузки,575.5835283777614,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,578.4924972002739,3
+23,погружен,578.7586061956051,2
+35,начало погрузки,579.6133455226704,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,580.5835283777614,2
+10,начало погрузки,582.0147214841671,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,начало погрузки,582.3192772260132,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,584.6133455226704,3
+31,начало погрузки,584.6133455226704,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+10,погружен,587.0147214841671,3
+11,начало погрузки,587.0147214841671,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,587.3192772260132,3
+17,начало погрузки,587.6083050614413,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,589.6133455226704,3
+0,начало погрузки,589.6133455226704,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,592.0147214841671,3
+26,начало погрузки,592.0147214841671,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,592.6083050614413,3
+0,погружен,594.6133455226704,2
+26,погружен,597.0147214841671,1
+3,начало погрузки,597.7852825920027,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,начало погрузки,598.0701775980851,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,погружен,602.7852825920027,2
+16,погружен,603.0701775980851,1
+2,начало погрузки,603.1577128928297,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,начало погрузки,604.8035369105038,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,начало погрузки,606.4591156732772,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,погружен,608.1577128928297,3
+5,начало погрузки,609.4803267820078,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,609.8035369105038,3
+22,погружен,611.4591156732772,2
+28,начало погрузки,612.8070959019972,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,начало погрузки,613.260574399813,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,614.4803267820078,3
+21,начало погрузки,615.084261576783,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,617.8070959019972,3
+18,начало погрузки,617.8070959019972,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+14,погружен,618.260574399813,3
+32,начало погрузки,619.7355013112996,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,620.084261576783,3
+18,погружен,622.8070959019972,2
+32,погружен,624.7355013112996,1
+29,начало погрузки,627.878856892971,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,начало погрузки,628.7474618238141,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,632.878856892971,2
+19,погружен,633.7474618238141,1
+25,начало погрузки,633.9378129007137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,начало погрузки,636.0420115919159,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,начало погрузки,636.9278906835141,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+25,погружен,638.9378129007137,3
+33,начало погрузки,638.9378129007137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,641.0420115919159,3
+30,начало погрузки,641.0420115919159,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,погружен,641.9278906835141,3
+27,начало погрузки,641.9278906835141,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+33,погружен,643.9378129007137,3
+4,начало погрузки,643.9378129007137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+30,погружен,646.0420115919159,3
+34,начало погрузки,646.0420115919159,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+27,погружен,646.9278906835141,3
+15,начало погрузки,646.9278906835141,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+4,погружен,648.9378129007137,3
+24,начало погрузки,648.9378129007137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+34,погружен,651.0420115919159,3
+1,начало погрузки,651.0420115919159,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+15,погружен,651.9278906835141,3
+9,начало погрузки,651.9661569130355,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+24,погружен,653.9378129007137,3
+23,начало погрузки,653.9378129007137,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+1,погружен,656.0420115919159,3
+12,начало погрузки,656.0420115919159,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+9,погружен,656.9661569130355,3
+20,начало погрузки,656.9661569130355,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+23,погружен,658.9378129007137,3
+35,начало погрузки,659.0668844224709,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+12,погружен,661.0420115919159,3
+6,начало погрузки,661.6676744006018,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+20,погружен,661.9661569130355,3
+10,начало погрузки,663.4548057299093,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+35,погружен,664.0668844224709,3
+17,начало погрузки,664.9095125066649,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+6,погружен,666.6676744006018,3
+11,начало погрузки,667.6200677681172,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+10,погружен,668.4548057299093,3
+31,начало погрузки,669.2837291242881,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+17,погружен,669.9095125066649,3
+0,начало погрузки,670.6366018622791,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+11,погружен,672.6200677681172,3
+26,начало погрузки,673.1144590911575,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+31,погружен,674.2837291242881,3
+0,погружен,675.6366018622791,2
+26,погружен,678.1144590911575,1
+16,начало погрузки,680.2545270345628,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+2,начало погрузки,680.7163285474174,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+3,начало погрузки,680.9021569610649,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+16,погружен,685.2545270345628,3
+2,погружен,685.7163285474174,2
+3,погружен,685.9021569610649,1
+7,начало погрузки,687.0493437935509,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,начало погрузки,689.259504706824,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,начало погрузки,691.2942882462798,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+7,погружен,692.0493437935509,3
+21,начало погрузки,693.0722726797239,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+22,погружен,694.259504706824,3
+28,начало погрузки,694.259504706824,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+5,погружен,696.2942882462798,3
+14,начало погрузки,696.2942882462798,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+21,погружен,698.0722726797239,3
+18,начало погрузки,698.0722726797239,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+28,погружен,699.259504706824,3
+14,погружен,701.2942882462798,2
+32,начало погрузки,702.619808435339,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+18,погружен,703.0722726797239,2
+19,начало погрузки,705.4051543626202,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+32,погружен,707.619808435339,2
+29,начало погрузки,709.9455537244401,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+19,погружен,710.4051543626202,2
+8,начало погрузки,714.6719949073695,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+29,погружен,714.9455537244401,2
+25,начало погрузки,715.4448501098026,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+13,начало погрузки,718.3168099145655,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>
+8,погружен,719.6719949073695,3
+33,начало погрузки,719.6719949073695,<simpy.resources.resource.Resource object at 0x7f01ab4eefa0>

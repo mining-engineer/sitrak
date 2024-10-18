@@ -8,21 +8,33 @@ START_TIME = datetime(2024, 1, 1, 0, 0, 0)
 DISTANCE = 17.6  # Расстояние в километрах
 SPEED = 27  # Скорость в км/ч
 LOADING_TIME = 5  # Время загрузки в минутах
+MORNING_SHIFT = datetime.strptime("6:30", "%H:%M").time() # окончание смены утром
+EVENING_SHIFT = datetime.strptime("18:30", "%H:%M").time()  # окончание смены вечером
+TIME_TO_SHIFT = timedelta(hours = 1, minutes = 30) # время до конца смены для постановки на пересменку
+NEXT_DAY_TIME = datetime.strptime("00:00", "%H:%M").time()  # переход на следующие сутки
 
-# Время начала смен
-MORNING_SHIFT_START = datetime(2024, 1, 1, 6, 30)
-EVENING_SHIFT_START = datetime(2024, 1, 1, 18, 30)
 
 def time_formatter(dur):
     ''' переводит время моделирования в строку '''
     return (START_TIME + timedelta(minutes=dur)).strftime('%Y-%m-%d %H:%M')
+
+def real_time(dur):
+    return (START_TIME + timedelta(minutes =dur))
+
+
+def delta_time(t1,t2):
+    return timedelta(
+        hours = t1.hour - t2.hour,
+        minutes = t1.minute - t2.minute
+    )
+
 
 class Lory:
     def __init__(self, env, truck_id, loader):
         self.env = env
         self.truck_id = truck_id
         self.loader = loader
-        self.is_loaded = False  # Флаг, чтобы знать, загружен ли самосвал
+        self.is_loaded = False  # Состояние загрузки
         self.action = env.process(self.run())
 
     def run(self):
@@ -31,29 +43,13 @@ class Lory:
             yield self.env.process(self.drive())
             # Ожидание погрузки
             yield self.env.process(self.loader.load(self))
-            self.is_loaded = True  # Устанавливаем флаг загрузки
+            self.is_loaded = True  # Грузовик теперь загружен
             # Поездка на разгрузку
             yield self.env.process(self.drive(return_trip=True))
-            self.is_loaded = False  # После разгрузки самосвал пустой
-            # Проверка на пересменку только если самосвал пустой
+            self.is_loaded = False  # Грузовик теперь разгружен
+            
+            # Проверка смены после разгрузки
             yield self.env.process(self.check_shift())
-
-    def check_shift(self):
-        current_time = START_TIME + timedelta(minutes=self.env.now)
-        travel_time = (DISTANCE / SPEED * 2 + LOADING_TIME) * 60  # Общее время восстановления
-        total_time = (DISTANCE / SPEED * 60 * 2) + LOADING_TIME  # Время на поездку туда и обратно
-
-        # Если текущее время + время на поездку и загрузку превышает начало смены
-        if current_time + timedelta(minutes=total_time) >= MORNING_SHIFT_START and not self.is_loaded:
-            wait_time = (MORNING_SHIFT_START - current_time).total_seconds() / 60  # перевод в минуты
-            print(f"Грузовик {self.truck_id} останавливается на пересменку, ожидает до {time_formatter(self.env.now + wait_time)}.")
-            yield self.env.timeout(wait_time)
-        
-        # Если грузовик не успевает завершить для второй смены
-        elif current_time + timedelta(minutes=total_time) >= EVENING_SHIFT_START and not self.is_loaded:
-            wait_time = (EVENING_SHIFT_START - current_time).total_seconds() / 60  # перевод в минуты
-            print(f"Грузовик {self.truck_id} останавливается на пересменку, ожидает до {time_formatter(self.env.now + wait_time)}.")
-            yield self.env.timeout(wait_time)
 
     def drive(self, return_trip=False):
         # Время в пути с учетом случайной погрешности ±10%
@@ -65,6 +61,22 @@ class Lory:
         yield self.env.timeout(travel_time)
         
         print(f"Грузовик {self.truck_id} приехал на {direction}, время {time_formatter(self.env.now)}.")
+        
+    def check_shift(self):
+        if real_time(self.env.now).time() > MORNING_SHIFT and real_time(self.env.now).time() < EVENING_SHIFT:
+            delta = delta_time(EVENING_SHIFT, real_time(self.env.now).time())
+            if delta > TIME_TO_SHIFT:
+                return print(f'Осталось рабоать {delta}')
+            else:
+                return print('пора на пересменку')
+        elif real_time(self.env.now).time() > NEXT_DAY_TIME and real_time(self.env.now).time() < MORNING_SHIFT:
+            delta = delta_time(MORNING_SHIFT, real_time(self.env.now).time())
+            if delta > TIME_TO_SHIFT:
+                return print(f'Осталось работать {delta}')
+            else:
+                return print('пора на пересменку')
+
+
 
 class Loader:
     def __init__(self, env, loader_id):
