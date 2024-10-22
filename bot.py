@@ -3,6 +3,7 @@ import os
 import subprocess
 import time
 
+
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, Updater, MessageHandler, Filters
 
@@ -27,7 +28,7 @@ def start(update, context):
         reply_markup=button
     )
 
-def analyze_results():
+def analyze_results():import sys
     import pandas as pd
 
     df = pd.read_csv('output.csv')
